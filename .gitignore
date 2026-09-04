@@ -1,0 +1,28 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Google API Credentials & Tokens
+credentials.json
+gmail_token.json
+calendar_token.json
+meeting_token.json
+
+# Audio Files (Don't upload large or private recordings)
+*.mp3
+*.wav
+*.m4a
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary or Test Files
+check_models.py
+temp_*
